@@ -7,14 +7,14 @@
 //
 
 import UIKit
+import SwiftCSV
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        loadCSV()
         return true
     }
 
@@ -32,6 +32,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    func loadCSV() {
+        do {
+            let filename = "Book-Authors"
+            let type = "csv"
+            guard let path = Bundle.main.path(forResource: filename, ofType: type) else {
+                print("CANNOT LOAD FILE: " + filename)
+                return
+            }
 
+            let csv = try CSV(url: URL(fileURLWithPath: path))
+            try csv.enumerateAsDict { dict in
+                print(dict["authorID"]!)
+                print(dict["name"]!)
+                print(dict["intro"]!)
+            }
+        } catch let error as NSError {
+            print(error)
+        }
+    }
 }
-

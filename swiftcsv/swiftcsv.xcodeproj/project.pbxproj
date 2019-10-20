@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46CCDF57A1CE00C7579B7446 /* Pods_swiftcsvUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A1C190D3407870E893F1AB /* Pods_swiftcsvUITests.framework */; };
 		8407307F235C5A59001BC423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407307E235C5A59001BC423 /* AppDelegate.swift */; };
 		84073081235C5A59001BC423 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84073080235C5A59001BC423 /* SceneDelegate.swift */; };
 		84073083235C5A59001BC423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84073082235C5A59001BC423 /* ContentView.swift */; };
@@ -15,6 +16,9 @@
 		8407308B235C5A61001BC423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84073089235C5A61001BC423 /* LaunchScreen.storyboard */; };
 		84073096235C5A61001BC423 /* swiftcsvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84073095235C5A61001BC423 /* swiftcsvTests.swift */; };
 		840730A1235C5A61001BC423 /* swiftcsvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840730A0235C5A61001BC423 /* swiftcsvUITests.swift */; };
+		840730B1235C5FCB001BC423 /* Book-Authors.csv in Resources */ = {isa = PBXBuildFile; fileRef = 840730B0235C5FCA001BC423 /* Book-Authors.csv */; };
+		8F1053568DAFBCCBFE908D5D /* Pods_swiftcsvTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CF4F69745AC42099914E69 /* Pods_swiftcsvTests.framework */; };
+		CF180D6384AED6635B863470 /* Pods_swiftcsv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720EC3B882BE231519D3C4CE /* Pods_swiftcsv.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7477A8685E76674D08E02E /* Pods-swiftcsvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftcsvTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftcsvTests/Pods-swiftcsvTests.release.xcconfig"; sourceTree = "<group>"; };
+		13CF4F69745AC42099914E69 /* Pods_swiftcsvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftcsvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D81495F41FB0D704B018D2 /* Pods-swiftcsv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftcsv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftcsv/Pods-swiftcsv.debug.xcconfig"; sourceTree = "<group>"; };
+		1FD5775AB7C24A3E43E4FC8A /* Pods-swiftcsvUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftcsvUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftcsvUITests/Pods-swiftcsvUITests.release.xcconfig"; sourceTree = "<group>"; };
+		35434399B328D2663C9E644B /* Pods-swiftcsvUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftcsvUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftcsvUITests/Pods-swiftcsvUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF69B81858E479ECABCA1D7 /* Pods-swiftcsv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftcsv.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftcsv/Pods-swiftcsv.release.xcconfig"; sourceTree = "<group>"; };
+		720EC3B882BE231519D3C4CE /* Pods_swiftcsv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftcsv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8407307B235C5A59001BC423 /* swiftcsv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftcsv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8407307E235C5A59001BC423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84073080235C5A59001BC423 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		8407309C235C5A61001BC423 /* swiftcsvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftcsvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840730A0235C5A61001BC423 /* swiftcsvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftcsvUITests.swift; sourceTree = "<group>"; };
 		840730A2235C5A61001BC423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840730B0235C5FCA001BC423 /* Book-Authors.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Book-Authors.csv"; path = "swiftcsv/Book-Authors.csv"; sourceTree = "<group>"; };
+		93A1C190D3407870E893F1AB /* Pods_swiftcsvUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftcsvUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5BEA50B2D152CACE8EA6A7 /* Pods-swiftcsvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftcsvTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftcsvTests/Pods-swiftcsvTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF180D6384AED6635B863470 /* Pods_swiftcsv.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1053568DAFBCCBFE908D5D /* Pods_swiftcsvTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +86,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46CCDF57A1CE00C7579B7446 /* Pods_swiftcsvUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27DEB0ADCEAB4ACA1403593A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				720EC3B882BE231519D3C4CE /* Pods_swiftcsv.framework */,
+				13CF4F69745AC42099914E69 /* Pods_swiftcsvTests.framework */,
+				93A1C190D3407870E893F1AB /* Pods_swiftcsvUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84073072235C5A59001BC423 = {
 			isa = PBXGroup;
 			children = (
+				840730B0235C5FCA001BC423 /* Book-Authors.csv */,
 				8407307D235C5A59001BC423 /* swiftcsv */,
 				84073094235C5A61001BC423 /* swiftcsvTests */,
 				8407309F235C5A61001BC423 /* swiftcsvUITests */,
 				8407307C235C5A59001BC423 /* Products */,
+				E29DD9DE338DC42F35ACCB16 /* Pods */,
+				27DEB0ADCEAB4ACA1403593A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +166,19 @@
 			path = swiftcsvUITests;
 			sourceTree = "<group>";
 		};
+		E29DD9DE338DC42F35ACCB16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18D81495F41FB0D704B018D2 /* Pods-swiftcsv.debug.xcconfig */,
+				5CF69B81858E479ECABCA1D7 /* Pods-swiftcsv.release.xcconfig */,
+				CD5BEA50B2D152CACE8EA6A7 /* Pods-swiftcsvTests.debug.xcconfig */,
+				0B7477A8685E76674D08E02E /* Pods-swiftcsvTests.release.xcconfig */,
+				35434399B328D2663C9E644B /* Pods-swiftcsvUITests.debug.xcconfig */,
+				1FD5775AB7C24A3E43E4FC8A /* Pods-swiftcsvUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840730A5235C5A61001BC423 /* Build configuration list for PBXNativeTarget "swiftcsv" */;
 			buildPhases = (
+				900B4B8E6B59F7CC4C1743FB /* [CP] Check Pods Manifest.lock */,
 				84073077235C5A59001BC423 /* Sources */,
 				84073078235C5A59001BC423 /* Frameworks */,
 				84073079235C5A59001BC423 /* Resources */,
+				405B6418350A766F1B23F28E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840730A8235C5A61001BC423 /* Build configuration list for PBXNativeTarget "swiftcsvTests" */;
 			buildPhases = (
+				41299D2FF7233DABCC18A2E4 /* [CP] Check Pods Manifest.lock */,
 				8407308D235C5A61001BC423 /* Sources */,
 				8407308E235C5A61001BC423 /* Frameworks */,
 				8407308F235C5A61001BC423 /* Resources */,
@@ -178,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 840730AB235C5A61001BC423 /* Build configuration list for PBXNativeTarget "swiftcsvUITests" */;
 			buildPhases = (
+				ACBFA6FDA72AD931E074D324 /* [CP] Check Pods Manifest.lock */,
 				84073098235C5A61001BC423 /* Sources */,
 				84073099235C5A61001BC423 /* Frameworks */,
 				8407309A235C5A61001BC423 /* Resources */,
@@ -243,6 +290,7 @@
 				8407308B235C5A61001BC423 /* LaunchScreen.storyboard in Resources */,
 				84073088235C5A61001BC423 /* Preview Assets.xcassets in Resources */,
 				84073085235C5A60001BC423 /* Assets.xcassets in Resources */,
+				840730B1235C5FCB001BC423 /* Book-Authors.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +309,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		405B6418350A766F1B23F28E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swiftcsv/Pods-swiftcsv-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftCSV/SwiftCSV.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCSV.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftcsv/Pods-swiftcsv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41299D2FF7233DABCC18A2E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftcsvTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		900B4B8E6B59F7CC4C1743FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftcsv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBFA6FDA72AD931E074D324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftcsvUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84073077235C5A59001BC423 /* Sources */ = {
@@ -432,6 +571,7 @@
 		};
 		840730A6235C5A61001BC423 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D81495F41FB0D704B018D2 /* Pods-swiftcsv.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +591,7 @@
 		};
 		840730A7235C5A61001BC423 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF69B81858E479ECABCA1D7 /* Pods-swiftcsv.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +611,7 @@
 		};
 		840730A9235C5A61001BC423 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5BEA50B2D152CACE8EA6A7 /* Pods-swiftcsvTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +633,7 @@
 		};
 		840730AA235C5A61001BC423 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7477A8685E76674D08E02E /* Pods-swiftcsvTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +655,7 @@
 		};
 		840730AC235C5A61001BC423 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35434399B328D2663C9E644B /* Pods-swiftcsvUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +675,7 @@
 		};
 		840730AD235C5A61001BC423 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD5775AB7C24A3E43E4FC8A /* Pods-swiftcsvUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
